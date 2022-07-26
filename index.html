@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon_io/site.webmanifest">
+
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Brew.</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Brew.</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#subscribe" class="nav__link">Subscribe</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#explore" class="nav__link">Explore</a>
+                    </li>
+                </ul>
+
+                <div class="nav__dark">
+                    <i class="ri-moon-fill change-theme" id="theme-button"></i>
+                    <span class="change-theme-name">Dark Mode</span>
+                </div>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Main -->
+    <main class="main">
+
+        <!-- home -->
+        <section class="home" id="home">
+            <img src="/assets/img/home2.jpg" alt="" class="home__img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">Discover your cup of caffine</span>
+                    <h1 class="home__data-title">Filter your perfect <br> Cup of Happiness</h1>
+                    <a href="#explore" class="button">Explore</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-line"></i>
+                    </a>
+                    <a href="" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="" target="_blank" class="home__social-link">
+                        <i class="ri-pinterest-line"></i>
+                    </a>
+                </div>
+
+                <div class="home__info">
+                    <div>
+                        <span class="home__info-title">
+                            Best Tier:<br>
+                            ₹ 399 / Month
+                        </span>
+                        <a href="#subscribe" class="button button--flex button--link home__info-button">
+                            More <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info-overlay">
+                        <img src="/assets/img/home1.jpg" alt="" class="home__info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        A Perfect Cup for <br> Everyone.
+                    </h2>
+                    <p class="about__description">
+                        You have preferences? We got you covered.Discover the best quality caffine without making a
+                        hole in your pocket. <br>Choose the Brew that best suits You.
+                    </p>
+                    <a href="#subscribe" class="button">Choose Tier</a>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="/assets/img/about1.jpg" alt="" class="about__img-one">
+                    </div>
+                    <div class="about__img-overlay">
+                        <img src="/assets/img/about2.jpg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- subscribe -->
+        <section class="subscribe section" id="subscribe">
+            <h2 class="section__title">Select the Tier of Coffee Beans that<br>Suits you Best</h2>
+
+            <div class="subscribe__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="subscribe__card swiper-slide">
+                        <img src="/assets/img/discover1.jpg" alt="" class="subscribe__img">
+                        <div class="subscribe__data">
+                            <h2 class="subscribe__title">
+                                ₹ 399 / Month
+                            </h2>
+                            <span class="subscribe__description">Freshly Roasted</span>
+                        </div>
+                    </div>
+                    <div class="subscribe__card swiper-slide">
+                        <img src="/assets/img/discover2.jpg" alt="" class="subscribe__img">
+                        <div class="subscribe__data">
+                            <h2 class="subscribe__title">
+                                ₹ 1,200 / 3 Months
+                            </h2>
+                            <span class="subscribe__description">Roasted and Ground</span>
+                        </div>
+                    </div>
+                    <div class="subscribe__card swiper-slide">
+                        <img src="/assets/img/discover3.jpg" alt="" class="subscribe__img">
+                        <div class="subscribe__data">
+                            <h2 class="subscribe__title">
+                                ₹ 2,400 / 6 Months
+                            </h2>
+                            <span class="subscribe__description">Roasted and Ground</span>
+                        </div>
+                    </div>
+                    <div class="subscribe__card swiper-slide">
+                        <img src="/assets/img/discover4.jpg" alt="" class="subscribe__img">
+                        <div class="subscribe__data">
+                            <h2 class="subscribe__title">
+                                ₹ 4,800 / 12 Months
+                            </h2>
+                            <span class="subscribe__description">Roasted and Ground</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- explore -->
+        <section class="explore section" id="explore">
+            <h2 class="section__title">Select your Add-on Brews. </h2>
+
+            <div class="explore__container container grid">
+                <div class="explore__card">
+                    <img src="/assets/img/coffee1.jpg" alt="" class="explore__img">
+
+                    <div class="explore__content">
+                        <span class="explore__rating">
+                            <i class="ri-star-fill explore__rating-icon"></i>
+                            <span class="explore__rating-number">4.8</span>
+                        </span>
+
+                        <div class="explore__data">
+                            <h3 class="explore__title">Expresso</h3>
+                            <span class="explore__subtitle">20 Sachets</span>
+                            <span class="explore__price">₹ 2,300</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex explore__button">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </button>
+                </div>
+                <div class="explore__card">
+                    <img src="/assets/img/coffee2.jpg" alt="" class="explore__img">
+
+                    <div class="explore__content">
+                        <span class="explore__rating">
+                            <i class="ri-star-fill explore__rating-icon"></i>
+                            <span class="explore__rating-number">4.3</span>
+                        </span>
+
+                        <div class="explore__data">
+                            <h3 class="explore__title">Iced Latte</h3>
+                            <span class="explore__subtitle">20 Sachets + Creme</span>
+                            <span class="explore__price">₹ 3,500</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex explore__button">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </button>
+                </div>
+                <div class="explore__card">
+                    <img src="/assets/img/coffee3.jpg" alt="" class="explore__img">
+
+                    <div class="explore__content">
+                        <span class="explore__rating">
+                            <i class="ri-star-fill explore__rating-icon"></i>
+                            <span class="explore__rating-number">4.8</span>
+                        </span>
+
+                        <div class="explore__data">
+                            <h3 class="explore__title">Cappuccino</h3>
+                            <span class="explore__subtitle">20 Sachets + Creme</span>
+                            <span class="explore__price">₹ 5,000</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex explore__button">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </button>
+                </div>
+                <div class="explore__card">
+                    <img src="/assets/img/coffee4.jpg" alt="" class="explore__img">
+
+                    <div class="explore__content">
+                        <span class="explore__rating">
+                            <i class="ri-star-fill explore__rating-icon"></i>
+                            <span class="explore__rating-number">4.7</span>
+                        </span>
+
+                        <div class="explore__data">
+                            <h3 class="explore__title">Dalgona</h3>
+                            <span class="explore__subtitle">20 Sachets + Spread</span>
+                            <span class="explore__price">₹ 5,500</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex explore__button">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </button>
+                </div>
+                <div class="explore__card">
+                    <img src="/assets/img/coffee5.jpg" alt="" class="explore__img">
+
+                    <div class="explore__content">
+                        <span class="explore__rating">
+                            <i class="ri-star-fill explore__rating-icon"></i>
+                            <span class="explore__rating-number">4.5</span>
+                        </span>
+
+                        <div class="explore__data">
+                            <h3 class="explore__title">Mocha</h3>
+                            <span class="explore__subtitle">20 Sachets</span>
+                            <span class="explore__price">₹ 3,000</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex explore__button">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </button>
+                </div>
+                <div class="explore__card">
+                    <img src="/assets/img/coffee6.jpg" alt="" class="explore__img">
+
+                    <div class="explore__content">
+                        <span class="explore__rating">
+                            <i class="ri-star-fill explore__rating-icon"></i>
+                            <span class="explore__rating-number">4.9</span>
+                        </span>
+
+                        <div class="explore__data">
+                            <h3 class="explore__title">Frappuccino</h3>
+                            <span class="explore__subtitle">20 Sachets + Caramel</span>
+                            <span class="explore__price">₹ 6,000</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex explore__button">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- experience -->
+        <section class="experience section" id="experience">
+            <h2 class="section__title">Freshest from the Fresh,<br>We bring you the Best.</h2>
+            <div class="experience__container container grid">
+                <div class="experience__content grid">
+                    <div class="experience__data">
+                        <h2 class="experience__number">6</h2>
+                        <span class="experience__description">
+                            Different<br> Brews
+                        </span>
+                    </div>
+                    <div class="experience__data">
+                        <h2 class="experience__number">10+</h2>
+                        <span class="experience__description">
+                            Year<br> Experience
+                        </span>
+                    </div>
+                    <div class="experience__data">
+                        <h2 class="experience__number">5200+</h2>
+                        <span class="experience__description">
+                            Happy<br> Consumers
+                        </span>
+                    </div>
+                </div>
+                <div class="experience__img grid">
+                    <div class="experience__overlay">
+                        <img src="/assets/img/experience1.jpg" alt="" class="experience__img-one">
+                    </div>
+                    <div class="experience__overlay">
+                        <img src="/assets/img/experience2.jpg" alt="" class="experience__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- video -->
+        <section class="video section" id="video">
+            <h2 class="section__title">Video Tour</h2>
+
+            <div class="video__container container">
+                <p class="video__description">Take a tour and experience the aroma and richness of our freshly and
+                    ethically
+                    sourced coffee beans. From our farms to your table.</p>
+
+                <div class="video__content">
+                    <video id="video-file">
+                        <source src="/assets/video/video.mp4" type="video/mp4">
+                    </video>
+
+                    <button class="button button--flex video__button" id="video-button">
+                        <i class="ri-play-fill video__button-icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter section">
+            <div class="newsletter__bg">
+                <div class="newsletter__container container">
+                    <h2 class="section__title newsletter__title">Join our Newsletter</h2>
+                    <p class="newsletter__description">Subscribe to our Newsletter and get a special 20% discount.</p>
+
+                    <form action="" class="newsletter__form">
+                        <input type="text" placeholder="Enter your email" class="newsletter__input">
+
+                        <button class="button">Join</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Brew.</h3>
+                    <p class="footer__description">You choose the Brew,<br> we offer you Happiness.</p>
+
+                    <div>
+                        <a href="" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-line"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer__social-link">
+                            <i class="ri-pinterest-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">About</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Features</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Company</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Team Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Become a member</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Support</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Support Center</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169 Brew. All rights reserved.</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scroll up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+
+
+    <!-- Scroll reveal -->
+    <script src="/assets/js/scrollreveal.min.js"></script>
+
+
+    <!-- Swiper js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
